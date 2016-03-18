@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.chazknox.mashgamefinal.HomeActivity"
+    tools:showIn="@layout/activity_home">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_textview"
+        android:id="@+id/homeTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/home_1"
+        android:ems="10"
+        android:id="@+id/home1EditText"
+        android:layout_marginTop="87dp"
+        android:layout_below="@+id/homeTextView"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/home_2"
+        android:ems="10"
+        android:id="@+id/home2EditText"
+        android:layout_below="@+id/home1EditText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/home_3"
+        android:ems="10"
+        android:id="@+id/home3EditText"
+        android:layout_below="@+id/home2EditText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/home_4"
+        android:ems="10"
+        android:id="@+id/home4EditText"
+        android:layout_below="@+id/home3EditText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/home_5"
+        android:ems="10"
+        android:id="@+id/home5EditText"
+        android:layout_below="@+id/home4EditText"
+        android:layout_alignStart="@+id/submitButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button"
+        android:id="@+id/submitButton"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/home5EditText"
+        android:onClick="homeSubmitButtonClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_button"
+        android:id="@+id/clearButton"
+        android:layout_alignTop="@+id/submitButton"
+        android:layout_toEndOf="@+id/home5EditText"
+        android:onClick="homeCancelButtonClick; "/>
+</RelativeLayout>

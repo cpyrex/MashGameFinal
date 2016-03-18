@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">MashGameFinal</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_mry_">Mry_Activity</string>
+
+    <string name="mry_textview">You are married to?</string>
+    <string name="name_1">Keyondre</string>
+    <string name="name_2">Dilan</string>
+    <string name="name_3">Farhon</string>
+    <string name="name_4">Esteven</string>
+    <string name="name_5">Matthew</string>
+
+    <string name="kid_textview">Your kids are...?</string>
+    <string name="kid_1">ugly</string>
+    <string name="kid_2">bunch of fat asses</string>
+    <string name="kid_3">nerdy</string>
+    <string name="kid_4">adopted</string>
+    <string name="kid_5">the greatest</string>
+
+    <string name="job_textview">You work at...?</string>
+    <string name="job_1">the laundrymat</string>
+    <string name="job_2">Nowhere. Loser!!</string>
+    <string name="job_3">for the government</string>
+    <string name="job_4">yo mama</string>
+    <string name="job_5">in space</string>
+
+    <string name="home_textview">You live in a...?</string>
+    <string name="home_1">rundown shack</string>
+    <string name="home_2">Bevery Hills Mansion</string>
+    <string name="home_3">in your Car</string>
+    <string name="home_4">hotel</string>
+    <string name="home_5">hole</string>
+
+    <string name="submit_button">Next</string>
+    <string name="clear_button">Clear</string>
+    <string name="mash">M.A.S.H.</string>
+    <string name="start_button">Start Game</string>
+    <string name="title_activity_results_">ResultsActivity</string>
+    <string name="main_textview">The Results are in!!!</string>
+    <string name="results_textview">Results are......</string>
+    <string name="title_activity_kids">KidsActivity</string>
+    <string name="title_activity_job">JobActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="random_button">Random Mode</string>
+    <string name="history_button">History</string>
+
+    <string-array name="listArray">
+        <item>Heading</item>
+        <item>Headings and Details</item>
+        <item>All Data</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="yellow">Yellow</string>
+    <string name="blue">Blue</string>
+    <string name="title_activity_mry">MryActivity</string>
+    <string name="title_activity_results">ResultsActivity</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="save_button_results">Save</string>
+    <string name="start_over_button_results">Start Over</string>
+    <string name="history_button_results">History</string>
+    <string name="notify_button">Notify</string>
+</resources>

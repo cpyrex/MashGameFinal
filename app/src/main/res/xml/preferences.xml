@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="Chaz Knox"
+        android:key="username"
+        android:summary="Please provide your username">
+
+    </EditTextPreference>
+
+    <CheckBoxPreference
+        android:title="Application Updates"
+        android:defaultValue="false"
+        android:summary="This option, if selected will allow the app to check for latest update."
+        android:key="applicationUpdates">
+
+    </CheckBoxPreference>
+
+    <ListPreference
+        android:title="Download Details"
+        android:summary="Select the type of data you would like to download"
+        android:key="downloadType"
+        android:defaultValue="1"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+
+</PreferenceScreen>
